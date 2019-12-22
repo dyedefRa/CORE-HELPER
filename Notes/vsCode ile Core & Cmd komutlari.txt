@@ -1,0 +1,14 @@
+CMD de yada vsCode da  terminal altında yazıyoruz
+dotnet --version 
+
+-----
+dotnet new --help € => new de destek alırsın
+
+
+--- mkdir CourseApp € => DOSYA OLUŞTUR
+-- dir €  => DOSYALARI LİSTELE
+--code . € => Yeni bir vsCode ile bu pathi aç
+
+
+dotnet new mvc -o CourseApp.CoreMvc =>
+--ilgili dosya içine yeni bir dosya oluştur (CourseApp.CoreMvc adında) ve bu klasor içine yeni dotnet mvc projesi oluştur
