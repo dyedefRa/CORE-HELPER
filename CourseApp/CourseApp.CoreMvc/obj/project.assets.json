@@ -11807,11 +11807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\FULL CORE\\CourseApp\\CourseApp.CoreMvc\\CourseApp.CoreMvc.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\CORE HELPER\\CourseApp\\CourseApp.CoreMvc\\CourseApp.CoreMvc.csproj",
       "projectName": "CourseApp.CoreMvc",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\FULL CORE\\CourseApp\\CourseApp.CoreMvc\\CourseApp.CoreMvc.csproj",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\CORE HELPER\\CourseApp\\CourseApp.CoreMvc\\CourseApp.CoreMvc.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\FULL CORE\\CourseApp\\CourseApp.CoreMvc\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\CORE HELPER\\CourseApp\\CourseApp.CoreMvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
