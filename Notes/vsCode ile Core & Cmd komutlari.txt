@@ -12,3 +12,6 @@ dotnet new --help € => new de destek alırsın
 
 dotnet new mvc -o CourseApp.CoreMvc =>
 --ilgili dosya içine yeni bir dosya oluştur (CourseApp.CoreMvc adında) ve bu klasor içine yeni dotnet mvc projesi oluştur
+
+dotnet run 
+--projeyi çalıştırır   CTRL +C   projeyi durdurur.

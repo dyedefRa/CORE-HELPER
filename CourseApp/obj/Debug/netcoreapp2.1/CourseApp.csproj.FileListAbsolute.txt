@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\bin\Debug\netcoreapp2.1\CourseApp.deps.json
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\bin\Debug\netcoreapp2.1\CourseApp.runtimeconfig.json
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\bin\Debug\netcoreapp2.1\CourseApp.runtimeconfig.dev.json
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\bin\Debug\netcoreapp2.1\CourseApp.dll
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\bin\Debug\netcoreapp2.1\CourseApp.pdb
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\obj\Debug\netcoreapp2.1\CourseApp.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\obj\Debug\netcoreapp2.1\CourseApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\obj\Debug\netcoreapp2.1\CourseApp.RazorAssemblyInfo.cache
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\obj\Debug\netcoreapp2.1\CourseApp.RazorAssemblyInfo.cs
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\obj\Debug\netcoreapp2.1\CourseApp.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\obj\Debug\netcoreapp2.1\CourseApp.AssemblyInfo.cs
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\obj\Debug\netcoreapp2.1\CourseApp.RazorTargetAssemblyInfo.cache
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\obj\Debug\netcoreapp2.1\CourseApp.dll
+C:\Users\Asus\Desktop\CORE HELPER\CourseApp\obj\Debug\netcoreapp2.1\CourseApp.pdb
