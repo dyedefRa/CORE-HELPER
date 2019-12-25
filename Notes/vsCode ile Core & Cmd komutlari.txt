@@ -15,3 +15,15 @@ dotnet new mvc -o CourseApp.CoreMvc =>
 
 dotnet run 
 --projeyi çalıştırır   CTRL +C   projeyi durdurur.
+
+----MOVIE APP ICIN
+dotnet new web€
+dotnet new viewimports€
+dotnet new viewstart €   bu iki dosyayı da ekleyedik
+
+//npm ile bootstrap ekleyeceğiz
+npm init --yes € (package.json eklendi)
+npm i bootstrap (node_modules eklendi)
+
+//node_modules dosyası silinse dahi (npm le inidirlen ek js vs ler)
+npm install ile package.json dosyasındaki tum paketlerı ekler
