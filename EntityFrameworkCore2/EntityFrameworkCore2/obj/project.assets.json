@@ -12543,11 +12543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\EntityFrameworkCore2\\EntityFrameworkCore2\\EntityFrameworkCore2.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\CORE HELPER\\EntityFrameworkCore2\\EntityFrameworkCore2\\EntityFrameworkCore2.csproj",
       "projectName": "EntityFrameworkCore2",
-      "projectPath": "C:\\Users\\Asus\\source\\repos\\EntityFrameworkCore2\\EntityFrameworkCore2\\EntityFrameworkCore2.csproj",
+      "projectPath": "C:\\Users\\Asus\\Desktop\\CORE HELPER\\EntityFrameworkCore2\\EntityFrameworkCore2\\EntityFrameworkCore2.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\source\\repos\\EntityFrameworkCore2\\EntityFrameworkCore2\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Desktop\\CORE HELPER\\EntityFrameworkCore2\\EntityFrameworkCore2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

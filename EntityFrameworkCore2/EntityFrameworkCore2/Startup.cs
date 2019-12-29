@@ -6,6 +6,7 @@ using EntityFrameworkCore2.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -22,8 +23,15 @@ namespace EntityFrameworkCore2
        
         public void ConfigureServices(IServiceCollection services)
         {
+            //Servisleri db ye tanıtmamız gerekiyor.
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+
             //Dependency Injection
-            services.AddTransient<IProductRepository, FakeProductRepository>();
+            //services.AddTransient<IProductRepository, FakeProductRepository>();
+            services.AddTransient<IProductRepository, EfProductRepository>();
+
+
             services.AddMvc();
         }
 
