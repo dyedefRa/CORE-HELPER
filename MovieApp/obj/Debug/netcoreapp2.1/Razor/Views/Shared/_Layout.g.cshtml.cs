@@ -44,7 +44,7 @@ namespace MOVIEAPP.Model.Shared
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(35, 351, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4672386a902346ef85985851e5ae12a0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c5c3624b2b14c2d8b3547c5602a76c0", async() => {
                 BeginContext(41, 338, true);
                 WriteLiteral(@"
     <meta charset=""UTF-8"">
@@ -72,7 +72,7 @@ namespace MOVIEAPP.Model.Shared
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(388, 245, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ead381ecf80d47c092f54539deb2a1ee", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e851ce4b538461f82dfb779118e7ddc", async() => {
                 BeginContext(394, 24, true);
                 WriteLiteral("\r\n    <header>\r\n        ");
                 EndContext();

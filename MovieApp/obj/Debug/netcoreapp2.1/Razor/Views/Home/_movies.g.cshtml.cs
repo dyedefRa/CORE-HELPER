@@ -60,7 +60,7 @@ using MovieApp.Models;
             WriteLiteral("<div class=\"card md-3\">\r\n    <div class=\"row no-gutter\">\r\n        <div class=\"col-md-3\">\r\n            ");
             EndContext();
             BeginContext(213, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3673d2dc6734449fa8ef818a977cf88b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "56316d925ee3495295453da09eab3d6c", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -93,7 +93,7 @@ AddHtmlAttributeValue("", 250, item.Description, 250, 17, false);
             WriteLiteral("\r\n        </div>\r\n        <div class=\"col-md-9\">\r\n            <div class=\"card-body\">\r\n                <h5 class=\"card-title\">\r\n                  ");
             EndContext();
             BeginContext(432, 130, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5fa4b883fd5648a28e576f90893cc780", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ef45504d646c41d8b16dbfae7333349b", async() => {
                 BeginContext(502, 26, true);
                 WriteLiteral("  \r\n                      ");
                 EndContext();

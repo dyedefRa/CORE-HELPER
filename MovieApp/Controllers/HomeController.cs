@@ -1,19 +1,29 @@
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using MovieApp.Data;
 using MovieApp.Models;
 
 namespace MovieApp.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(int id)
         {
-            return View(Repository.Movies);
+            ProductCategoryModel productCategories = new ProductCategoryModel();
+            productCategories.Movies = MovieRepository.Movies;
+            productCategories.Categories = CategoryRepository.Categorys;
+            ViewBag.SelectedCategory= id;
+            if (id != 0)
+            {
+                productCategories.Movies = MovieRepository.Movies.Where(x => x.Id == id);
+            }
+            return View(productCategories);
         }
 
         public IActionResult Details(int id)
         {
 
-            return View(Repository.GetById(id));
+            return View(MovieRepository.GetById(id));
         }
         public IActionResult Contact()
         {

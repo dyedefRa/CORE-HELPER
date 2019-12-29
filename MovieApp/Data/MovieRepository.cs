@@ -1,39 +1,45 @@
 using System.Collections.Generic;
 using System.Linq;
+using MovieApp.Models;
 
-namespace MovieApp.Models
+namespace MovieApp.Data
 {
-    public static class Repository
+    public static class MovieRepository
     {
         private static List<Movie> _movies = null;
-        static Repository()
+        static MovieRepository()
         {
             _movies = new List<Movie>(){
                 new Movie(){ Id=1, 
                 Name="Shazam",
                 ShortDescription="Shazaman des",
                 ImageUrl="1.jpg" ,
-                Description="<p> asgkasgasgg asfasf1111 saf sa fsaf saf saf afs</p>"},
+                Description="<p> asgkasgasgg asfasf1111 saf sa fsaf saf saf afs</p>",
+                CategoryId=1},
                  new Movie(){ Id=2, 
                 Name="Shaza2m",
                 ShortDescription="Shazaman des2",
                 ImageUrl="2.jpg" ,
-                Description="<p> asgkasgasgg asfas22222f saf sa fsaf saf saf afs</p>"},
+                Description="<p> asgkasgasgg asfas22222f saf sa fsaf saf saf afs</p>",
+                 CategoryId=2},
                  new Movie(){ Id=3, 
                 Name="Shazam3",
                 ShortDescription="Shazaman des3",
                 ImageUrl="3.jpg" ,
-                Description="<p> asgkasgasgg asfasf 33333saf sa fsaf saf saf afs</p>"},
+                Description="<p> asgkasgasgg asfasf 33333saf sa fsaf saf saf afs</p>",
+                 CategoryId=3},
                  new Movie(){ Id=4, 
                 Name="Shazam4",
                 ShortDescription="Shazaman de4s",
                 ImageUrl="4.jpg" ,
-                Description="<p> asgkasgasgg44444saf sa fsaf saf saf afs</p>"},
+                Description="<p> asgkasgasgg44444saf sa fsaf saf saf afs</p>",
+                 CategoryId=4},
                  new Movie(){ Id=5, 
                 Name="Shazam5",
                ShortDescription="Shazaman d5es",
                 ImageUrl="5.jpg" ,
-                Description="<p> asgkasga55555sf saf sa fsaf saf saf afs</p>"},
+                Description="<p> asgkasga55555sf saf sa fsaf saf saf afs</p>",
+                 CategoryId=5},
             
             };
         }

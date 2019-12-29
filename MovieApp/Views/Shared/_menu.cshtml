@@ -1,9 +1,14 @@
+@using MovieApp.Models
+@model System.Collections.Generic.IEnumerable<Category>
+
 <div class="list-group">
-    <a href="/Home/details/1" class="list-group-item list-group-item-action active">Item1 </a>
-    <a href="/Home/details/2" class="list-group-item list-group-item-action active">Item2 </a>
-    <a href="/Home/details/3" class="list-group-item list-group-item-action active">Item3</a>
-     <a href="/Home/details/4" class="list-group-item list-group-item-action active">Item4</a>
-     <a href="/Home/details/5" class="list-group-item list-group-item-action active">Item5</a>
+        
+        <a  href="/" class="list-group-item list-group-item-action">Tüm Kategoriler</a>
+@foreach (var item in Model)
+{
+        <a asp-controller="Home" asp-action="Index"  asp-route-id="@item.Id" class="list-group-item list-group-item-action @(ViewBag.SelectedCategory==item.Id.ToString()?"active":"") ">@item.Name</a>
+
+}
 
 
  </div> 

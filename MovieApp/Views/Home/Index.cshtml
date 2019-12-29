@@ -1,12 +1,13 @@
 @using MovieApp.Models
-@model System.Collections.Generic.IEnumerable<Movie>
+@model ProductCategoryModel
     
 <div class="row">
    <div class="col-md-3">
-       @Html.Partial("_menu")
+       @Html.Partial("_menu",Model.Categories)
+       @* @await Component.InvokeAsync("CategoryMenu") *@
    </div>  
     <div class="col-md-9">
        @* @Html.Partial("_movies",Model) *@
-       <partial name="_movies" Model="Model"></partial>
+       <partial name="_movies" Model="Model.Movies"></partial>
    </div>      
  </div>
