@@ -19,6 +19,7 @@ namespace EntityFrameworkCore2
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+            .UseDefaultServiceProvider(configure=>configure.ValidateScopes=false)
+            .UseStartup<Startup>();
     }
 }

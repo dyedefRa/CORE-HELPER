@@ -56,6 +56,9 @@ namespace EntityFrameworkCore2
             //{
             //    await context.Response.WriteAsync("Hello World!");
             //});
+
+            //Bu sınıfı iyi kontrol et
+            SeedData.Seed(app);
         }
     }
 }

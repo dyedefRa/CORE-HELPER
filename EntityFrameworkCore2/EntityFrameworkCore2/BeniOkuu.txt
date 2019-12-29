@@ -15,3 +15,6 @@ Aktif etmek için ;
 CMD > Proje dizine git
 dotnet ef migrations add initial €
 Migrations dosyası eklendi
+SeedData sınıfını oluşturduk ve migration u tanıttık fake data oluşturduk.
+Bunu startup a tanıttık*****
+Programstada .UseDefaultServiceProvider ile Provider i tanıttık
