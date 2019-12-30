@@ -18,7 +18,7 @@ dotnet run
 
 ----MOVIE APP ICIN
 dotnet new web€
-dotnet new viewimports€
+dotnet new viewimports €
 dotnet new viewstart €   bu iki dosyayı da ekleyedik
 
 //npm ile bootstrap ekleyeceğiz
@@ -32,3 +32,6 @@ npm install ile package.json dosyasındaki tum paketlerı ekler
 -------------------------------- CORE DA MIGRATION AKTIF ETMEK
 Proje dizini >  
 dotnet ef migrations add initial
+Bunu yazabilmek için ;  Edit csproj dan  
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0"></DotNetCliToolReference>
+ eklememiz gerekiyor.

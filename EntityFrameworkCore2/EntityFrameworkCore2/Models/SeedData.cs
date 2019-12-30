@@ -16,6 +16,7 @@ namespace EntityFrameworkCore2.Models
             context.Database.Migrate();//Bu aşamada database oluşacak ama Startupta bunu tanıtmamız gerekiyor.
 
             //Burada test verileri kontrolu yapıp yoksa ekleyelim
+            //Burası her daim çalışıyor?
             if (!context.Products.Any())
             {
                 context.Products.AddRange(
