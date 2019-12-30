@@ -29,7 +29,7 @@ npm i bootstrap (node_modules eklendi)
 npm install ile package.json dosyasındaki tum paketlerı ekler
 
 
--------------------------------- CORE DA MIGRATION AKTIF ETMEK
+-------------------------------- CORE DA MIGRATION AKTIF ETMEK (EFCORE 2 )
 Proje dizini >  
 dotnet ef migrations add initial
 Bunu yazabilmek için ;  Edit csproj dan  
