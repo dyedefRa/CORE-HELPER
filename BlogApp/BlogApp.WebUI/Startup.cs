@@ -29,7 +29,7 @@ namespace BlogApp.WebUI
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseMvc(routes =>
             {
