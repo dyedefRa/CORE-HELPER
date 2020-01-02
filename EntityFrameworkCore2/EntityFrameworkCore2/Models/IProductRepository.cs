@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 
 namespace EntityFrameworkCore2.Models
 {
-   public interface IProductRepository
+    public interface IProductRepository
     {
-         IQueryable<Product> Products { get; }
+        Product GetById(int Id);
+        IQueryable<Product> Products { get; }
+        void CreateProduct(Product product);
+        void UpdateProduct(Product product);
+        void DeleteProduct(int Id);
     }
 }

@@ -52,3 +52,6 @@ C:\Users\Asus\Desktop\CORE HELPER\EntityFrameworkCore2\EntityFrameworkCore2\obj\
 C:\Users\Asus\Desktop\CORE HELPER\EntityFrameworkCore2\EntityFrameworkCore2\obj\Debug\netcoreapp2.1\EntityFrameworkCore2.dll
 C:\Users\Asus\Desktop\CORE HELPER\EntityFrameworkCore2\EntityFrameworkCore2\obj\Debug\netcoreapp2.1\EntityFrameworkCore2.pdb
 C:\Users\Asus\Desktop\CORE HELPER\EntityFrameworkCore2\EntityFrameworkCore2\obj\Debug\netcoreapp2.1\EntityFrameworkCore2.csproj.CopyComplete
+C:\Users\Asus\Desktop\CORE HELPER\EntityFrameworkCore2\EntityFrameworkCore2\obj\Debug\netcoreapp2.1\Razor\Views\Product\Create.g.cshtml.cs
+C:\Users\Asus\Desktop\CORE HELPER\EntityFrameworkCore2\EntityFrameworkCore2\obj\Debug\netcoreapp2.1\Razor\Views\Product\Details.g.cshtml.cs
+C:\Users\Asus\Desktop\CORE HELPER\EntityFrameworkCore2\EntityFrameworkCore2\obj\Debug\netcoreapp2.1\Razor\Views\Product\Edit.g.cshtml.cs

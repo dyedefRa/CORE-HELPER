@@ -15,5 +15,25 @@ namespace EntityFrameworkCore2.Models
             new Product(){ Id=1, Name="S 4", Price=5000, Category="Telefon", Description="Açıklama 4"},
             new Product(){ Id=1, Name="S 5", Price=6000, Category="Telefon", Description="Açıklama 5"},
         }.AsQueryable();
+
+        public void CreateProduct(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeleteProduct(int Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Product GetById(int Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateProduct(Product product)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

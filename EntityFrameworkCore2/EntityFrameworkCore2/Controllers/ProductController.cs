@@ -21,5 +21,32 @@ namespace EntityFrameworkCore2.Controllers
         }
         public IActionResult List() => View(_repository.Products);
 
+        public IActionResult Create() => View();
+
+        [HttpPost]
+        public IActionResult Create(Product product)
+        {
+            _repository.CreateProduct(product);
+            return RedirectToAction("List");
+        }
+
+        public IActionResult Details(int Id) => View(_repository.GetById(Id));
+
+        public IActionResult Edit(int Id)=> View(_repository.GetById(Id));
+
+        [HttpPost]
+        public IActionResult Edit(Product product)
+        {
+            _repository.UpdateProduct(product);
+            return RedirectToAction("Details", new { product.Id });
+        }
+        
+        public IActionResult Delete(int Id)
+        {
+            _repository.DeleteProduct(Id);
+            return RedirectToAction("List");
+        }
+
+
     }
 }
