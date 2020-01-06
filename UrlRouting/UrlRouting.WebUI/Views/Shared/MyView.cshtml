@@ -1,4 +1,4 @@
-﻿
+﻿@model _resultRoute
 @{
     Layout = null;
 }
@@ -11,7 +11,26 @@
     <title>MyView</title>
     <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 </head>
-<body>
+<body class="m-1 p-1">
 
+    <table class="table table-bordered table-striped table-sm">
+        <tr>
+            <td>Controller</td>
+            <th>@Model.Controller</th>
+        </tr>
+        <tr>
+            <td>Action</td>
+            <th>@Model.Action</th>
+        </tr>
+        @foreach (var key in Model.RouteData.Keys)
+        {
+            <tr>
+                <td>@key</td>
+                <th>
+                    @Model.RouteData[key]
+                </th>
+            </tr>
+        }
+    </table>
 </body>
 </html>

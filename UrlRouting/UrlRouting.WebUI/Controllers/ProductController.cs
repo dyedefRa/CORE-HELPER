@@ -35,5 +35,17 @@ namespace UrlRouting.WebUI.Controllers
                 Action = "Newest"
             });
         }
+
+        public IActionResult Details()
+        {
+            _resultRoute result = new _resultRoute()
+            {
+                Controller = "ProductController",
+                Action = "Details"
+            };
+
+            result.RouteData["Id"] = RouteData.Values["id"];//Details(int id) desekte getlemiş oluruz
+            return View("MyView", result);
+        }
     }
 }
