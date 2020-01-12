@@ -1,0 +1,20 @@
+
+A )     <a asp-controller="home" asp-action="details" asp-route-id="@emp.Id"> .................
+
+
+B)     <a href="/Home/Details/@emp.Id".........................
+
+
+Normal şartlarda A ve B nin  çıktısı aynı
+ fakat
+
+tanımlanmış routelarda diyelim ki default route ı ezdık ve
+
+
+routes.MapRoute("testRoute","test/{controller=Home}/{action=Index}({id?}"  ..
+
+gibi bir route mız var.Bu durumda 
+B = /Home/Details/5   olarak yansıyacak ve boyle bır route yok
+
+A= test/Home/Details/5  olarak çıkacak yani  
+Hangi route a uygunsa ilk ona göre şekilleniyor
