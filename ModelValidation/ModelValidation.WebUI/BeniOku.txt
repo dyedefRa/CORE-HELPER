@@ -1,0 +1,7 @@
+﻿Önemli yerler:
+Register.cshtml de ki form inputlarında,
+		  string deger için  =>     <label asp-for="UserName">User Name</label>
+		  boold deger icin =>      <input asp-for="TermsAccepted">
+yani tipe bakmadan asp-for dedigin an , arka taraftaki tipi algılayıp ona göre bir input text yada input chech vs gibi degerlere burunuyor.
+
+---VALIDATION----

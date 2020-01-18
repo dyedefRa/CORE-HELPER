@@ -1,0 +1,9 @@
+{
+  "name": "v1",
+  "description": "test",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "4.4.1"
+  }
+
+}
