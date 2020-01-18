@@ -1,0 +1,72 @@
+﻿@model Register2
+@{
+    ViewData["Title"] = "Register3";
+}
+
+<style>
+    .errorVar {
+        border-color: red;
+        color: red;
+    }
+</style>
+<h2>Register</h2>
+@section _scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/src/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $(function () {
+            //$('input.input-validation-error')
+            //    .closest('.form-group')
+            //    .addClass('errorVar');
+            $('input.input-validation-error').addClass('errorVar');
+         
+        })
+        $('.valid').removeClass('errorVar');
+    </script>
+
+}
+
+
+<form asp-action="Register3" method="post">
+    @*HATLAR TOPLU OLARAK BURDA GOZUKSUN*@
+    <div class="text-danger" asp-validation-summary="All"></div>
+    @*HATLAR TOPLU OLARAK BURDA GOZUKSUN*@
+    <div class="form-group">
+        <label asp-for="UserName">User Name</label>
+        <input class="form-control" asp-for="UserName">
+        <span class="text-danger" asp-validation-for="UserName"></span>
+        @*Propery level hata gözkmesi için*@
+    </div>
+    <div class="form-group">
+        <label asp-for="Email">Email</label>
+        <input class="form-control" asp-for="Email">
+        <span class="text-danger" asp-validation-for="Email"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="Password">Password</label>
+        <input class="form-control" asp-for="Password">
+        <span class="text-danger" asp-validation-for="Password"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="RePassword">RePassword</label>
+        <input class="form-control" asp-for="RePassword">
+        <span class="text-danger" asp-validation-for="RePassword"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="BirthDate">Birth Date</label>
+        <input type="text" asp-format="{0:d}" class="form-control" asp-for="BirthDate">
+        <span class="text-danger" asp-validation-for="BirthDate"></span>
+    </div>
+    <div class="radio form-group">
+        <input asp-for="TermsAccepted">
+        <label class="form-check-label" asp-for="TermsAccepted">
+            I accept the terms and conditions
+        </label>
+        <div> <span class="text-danger" asp-validation-for="TermsAccepted"></span></div>
+    </div>
+    <input type="submit" class="btn btn-primary" name="name" value="Register" />
+</form>
+

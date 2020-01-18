@@ -23,7 +23,8 @@ namespace ModelValidation.WebUI.Models
         [UIHint("Date")]//BirthDate in datesi lazım sadece
         public DateTime BirthDate { get; set; }//Bunlara required yazmaya gerek yok Nullable degıl
 
-        [Range(typeof(bool), "true", "true", ErrorMessage = "Kabul etmelisiniz")]
+        //[Range(typeof(bool), "true", "true", ErrorMessage = "Kabul etmelisiniz")]
+        [KesinlikleTrueOlmali()]
         public bool TermsAccepted { get; set; }
         //Kullanım koşullarını kabul etme
     }

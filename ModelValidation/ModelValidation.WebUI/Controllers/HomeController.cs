@@ -16,6 +16,7 @@ namespace ModelValidation.WebUI.Controllers
             return View("Register2", new Register2() { BirthDate = DateTime.Now });
 
         }
+        //Controller tarafında validate
         public IActionResult Register(Register model)
         {
             if (string.IsNullOrEmpty(model.UserName))
@@ -77,9 +78,39 @@ namespace ModelValidation.WebUI.Controllers
             return View(model);
         }
 
-        public IActionResult Register2(Register model)
+        //DataAnnotiate ile Validate
+        public IActionResult Register2(Register2 model)
         {
-          return View(model);
+            if (ModelState.IsValid)
+            {
+                Register registerModel = new Register
+                {
+                    UserName = model.UserName,
+                    Email = model.Email,
+                    BirthDate = model.BirthDate
+                };
+                return View("Completed", registerModel);
+
+            }
+            return View(model);
         }
+
+        public IActionResult Register3(Register2 model)
+        {
+            if (ModelState.IsValid)
+            {
+                Register registerModel = new Register
+                {
+                    UserName = model.UserName,
+                    Email = model.Email,
+                    BirthDate = model.BirthDate
+                };
+                return View("Completed", registerModel);
+
+            }
+            return View(model);
+        }
+
+
     }
 }
