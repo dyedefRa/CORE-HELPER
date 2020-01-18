@@ -1,6 +1,6 @@
-﻿@model Register
+﻿@model Register2
 @{
-    ViewData["Title"] = "Register";
+    ViewData["Title"] = "Register2";
 }
 
 <style>
@@ -43,6 +43,12 @@
             <label asp-for="Password">Password</label>
             <input class="form-control" asp-for="Password">
             <span class="text-danger" asp-validation-for="Password"></span>
+
+        </div>
+        <div class="form-group">
+            <label asp-for="RePassword">RePassword</label>
+            <input class="form-control" asp-for="RePassword">
+            <span class="text-danger" asp-validation-for="RePassword"></span>
 
         </div>
         <div class="form-group">

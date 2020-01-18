@@ -17,4 +17,4 @@ gibi bir route mız var.Bu durumda
 B = /Home/Details/5   olarak yansıyacak ve boyle bır route yok
 
 A= test/Home/Details/5  olarak çıkacak yani  
-Hangi route a uygunsa ilk ona göre şekilleniyor
+Hangi route a uygunsa ona göre şekilleniyor
