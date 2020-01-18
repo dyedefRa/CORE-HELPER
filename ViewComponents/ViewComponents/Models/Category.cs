@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace ViewComponents.Models
 {
-    public class custom
+    public class Category
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
